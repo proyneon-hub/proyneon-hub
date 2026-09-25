@@ -4,7 +4,7 @@ Software engineering student at **McMaster University** (B.Tech, expected 2028) 
 
 I am looking for **full-time and co-op roles** in application and production support, QA automation and software development.
 
-**Portfolio:** [pramitroy.tech](https://pramitroy.tech)
+**Portfolio:** [pramitroy.vercel.app](https://pramitroy.vercel.app)
 
 ## Featured project: IT Ticketing System
 
@@ -23,6 +23,10 @@ What is in it, with the evidence in the repository:
 - **Operations built in**: request ids that connect a user's error to a log line, Prometheus metrics with a Grafana dashboard, a runbook, and an hourly check of the live site that opens an incident issue when it fails.
 - **Security and correctness decisions written down**: eight decision records covering authentication with rotating refresh tokens, optimistic concurrency, and a transactional outbox for notifications.
 
+## Also built: Chess
+
+A full-stack chess game with local, computer (Easy, Normal, Advanced) and private online play, on Next.js 15, React 19, TypeScript and MongoDB. Pieces carry hidden political memories that follow the same deterministic rules in every mode. Online moves use compare-and-swap commits with idempotent receipts, rules are versioned so saved games keep their behavior, and 267 unit and integration tests plus 28 browser tests run in CI. [**Play it**](https://test-chess-game-roy-kappa-five.vercel.app) · [**Repository**](https://github.com/proyneon-hub/Chess-Game)
+
 ## Where I am strongest
 
 | Application and production support                        | QA automation                                                 | Software development                                   |
@@ -31,4 +35,4 @@ What is in it, with the evidence in the repository:
 
 ## Get in touch
 
-See my portfolio at [pramitroy.tech](https://pramitroy.tech).
+See my portfolio at [pramitroy.vercel.app](https://pramitroy.vercel.app).
